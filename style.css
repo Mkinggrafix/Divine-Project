@@ -1,0 +1,401 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d9d9d9;
+}
+
+        /* Global */
+#main{
+    background-color: #fff;
+    margin: 15px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    border-bottom: 1px #ff2c2b solid;
+    padding-bottom: 3px;
+}
+
+
+        /* leftBar */
+#leftBar{
+    flex: 2;
+    background-color: #ff2c2b;
+    height: 500px;
+}
+
+.line1{
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.line2{
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin-top: 2px;
+    margin-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.line3{
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin-top: 2px;
+    margin-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.brand{
+    line-height: 1px;
+    color: #fff;
+    text-align: center;
+}
+
+.brand .brand1{
+    font-size: 18px;
+    font-family:inherit;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.brand .brand2{
+    font-size: 10px;
+    font-family:inherit;
+    margin-left: 20px;
+}
+
+.line4{
+    height: 15px;
+    width: 210px;
+    background-color: #fff;
+    position: relative;
+    top: 25px;
+    left: 182px;
+}
+
+.puntuation1{
+    color: #fff;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    opacity: 0.5;
+    top: -70px;
+    left: 80px;
+}
+
+#leftBar p{
+    color: #fff;
+    font-size: 10px;
+    font-style: italic;
+    width: 200px;
+    line-height: 15px;
+    position: relative;
+    top: -228px;
+    left: 105px;
+}
+
+.puntuation2{
+    color: #fff;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    opacity: 0.5;
+    top: -330px;
+    left: 155px;
+}
+
+.navBar2 ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+    transform: rotate(-90deg);
+    position: relative;
+    left: -240px;
+    top: -360px;
+}
+
+.navBar2 a{
+    font-size: 8px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navBar2 a:hover{
+    border-bottom: 1px #fff solid;
+    padding-bottom: 3px;
+}
+
+#leftBar img{
+    width: 180px;
+    position: relative;
+    top: -425px;
+    left: 230px;
+
+}
+
+
+        /* rightBar */
+#rightBar{
+    flex: 3;
+}
+
+.navBar ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+.navBar a{
+    font-size: 8px;
+    color: #000;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.line5{
+    height: 15px;
+    width: 180px;
+    background-color: #ff2c2b;
+    position: relative;
+    top: 45px;
+    left: 0px;
+}
+
+.line6{
+    height: 15px;
+    width: 7px;
+    background-color: #ff2c2b;
+    position: relative;
+    top: 30px;
+    left: 186px;
+}
+
+.line7{
+    height: 3px;
+    width: 22px;
+    background-color: #000;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+    left: 460px;
+}
+
+.line8{
+    height: 3px;
+    width: 18px;
+    background-color: #000;
+    margin-top: 2px;
+    margin-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+    left: 464px;
+}
+
+.line9{
+    height: 3px;
+    width: 14px;
+    background-color: #000;
+    margin-top: 2px;
+    margin-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+    left: 468px;
+}
+
+.showcase h1{
+    font-size: 28px;
+    width: 260px;
+    position: relative;
+    top: 25px;
+    left: 35px;
+}
+
+.showcase p{
+    font-size: 10px;
+    width: 215px;
+    position: relative;
+    top: 25px;
+    left: 35px;
+    line-height: 15px;
+}
+
+.Me{
+    width: 200px;
+    position: relative;
+    top: -180px;
+    left: 298px;
+}
+
+.images{
+
+}
+
+.instagram{
+    display: block;
+    width: 12px;
+    cursor: pointer;
+    position: relative;
+    top: -340px;
+    left:  525px;
+}
+
+.facebook{
+    display: block;
+    width: 9px;
+    cursor: pointer;
+    position: relative;
+    top: -320px;
+    left:  525px;
+}
+
+.twitter{
+    display: block;
+    width: 15px;
+    cursor: pointer;
+    position: relative;
+    top: -265px;
+    left:  525px;
+}
+
+.youtube{
+    display: block;
+    width: 15px;
+    cursor: pointer;
+    position: relative;
+    top: -255px;
+    left:  525px;
+}
+
+.line10{
+    height: 3px;
+    width: 3px;
+    background-color: #000;
+    margin-top: 2px;
+    margin-left: 15px;
+    border-radius: 2px;
+    opacity: 0.7;
+    position: relative;
+    top: -250px;
+    left: 130px;
+}
+
+.line11{
+    height: 3px;
+    width: 14px;
+    background-color: #000;
+    margin-top: 2px;
+    margin-left: 15px;
+    border-radius: 2px;
+    opacity: 0.7;
+    position: relative;
+    top: -255px;
+    left: 140px;
+}
+
+.line12{
+    height: 3px;
+    width: 70px;
+    background-color: #000;
+    margin-top: 2px;
+    margin-left: 15px;
+    border-radius: 2px;
+    opacity: 0.7;
+    position: relative;
+    top: -260px;
+    left: 160px;
+}
+
+.line13{
+    height: 5px;
+    width: 5px;
+    background-color: #ff2c2b;
+    margin-top: 2px;
+    margin-left: 15px;
+    position: relative;
+    top: -222px;
+    left: 313px;
+}
+
+.line14{
+    height: 5px;
+    width: 160px;
+    background-color: #ff2c2b;
+    margin-top: 2px;
+    margin-left: 15px;
+    position: relative;
+    top: -230px;
+    left: 325px;
+}
+
+.line15{
+    height: 2px;
+    width: 70px;
+    background-color: #000;
+    margin-top: 2px;
+    margin-left: 15px;
+    opacity: 0.5;
+    transform: rotate(90deg);
+    position: relative;
+    top: -170px;
+    left: 15px;
+}
+
+.date{
+    font-size: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -510px;
+    left: -225px;
+}
+
+.square{
+    height: 35px;
+    width: 35px;
+    background-color: #ff2c2b;
+    position: relative;
+    top: -328px;
+    left: 463px;
+}
+
+.line16{
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: relative;
+    top: -350px;
+    left: 475px;
+}
+
+.line17{
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -342px;
+    left: 475px;
+}
